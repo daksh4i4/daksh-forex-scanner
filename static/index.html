@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Daksh Free Forex Scanner</title>
+<style>
+:root{--bg:#f4f7fb;--card:#fff;--ink:#172033;--muted:#718096;--line:#e6ebf2;--blue:#315efb;--green:#0b9b69;--red:#df4759;--amber:#bd8216}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);font:14px Inter,Segoe UI,Arial,sans-serif;color:var(--ink)}
+header{background:#111b32;color:white;padding:20px 4%;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+h1{font-size:21px;margin:0 0 5px}.sub{color:#b9c5db;font-size:12px}.status{font-size:12px;color:#b9c5db}
+main{max-width:1500px;margin:auto;padding:22px 4%}.toolbar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+button{border:0;border-radius:8px;padding:10px 14px;background:var(--blue);color:white;font-weight:600;cursor:pointer}
+button.secondary{background:white;color:var(--ink);border:1px solid var(--line)}button:disabled{opacity:.5}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-bottom:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:15px;box-shadow:0 2px 8px #17203308}
+.metric{font-size:24px;font-weight:750;margin-top:5px}.muted{color:var(--muted);font-size:12px}
+.panel{background:white;border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-bottom:16px}
+.panel-head{padding:15px 17px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:10px}
+h2{font-size:15px;margin:0}.tablewrap{overflow-x:auto}table{width:100%;border-collapse:collapse;min-width:800px}
+th,td{text-align:left;padding:12px 15px;border-bottom:1px solid var(--line);white-space:nowrap}th{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;background:#fafbfd}
+td{font-size:13px}.pill{padding:5px 9px;border-radius:20px;font-size:11px;font-weight:750}.BUY{background:#e4f7ef;color:#07865b}.SELL{background:#ffeaed;color:#ce3447}.WAIT{background:#fff5dc;color:#94640a}.DATA{background:#edf0f5;color:#657084}
+.settings{display:grid;grid-template-columns:repeat(4,minmax(130px,1fr));gap:12px;padding:16px}
+label{font-size:12px;color:var(--muted);display:block;margin-bottom:6px}input{width:100%;border:1px solid var(--line);border-radius:7px;padding:9px;color:var(--ink)}
+.tf{display:flex;gap:6px;flex-wrap:wrap}.tf span{font-size:11px;background:#f1f4f9;padding:5px 7px;border-radius:5px}
+footer{color:var(--muted);font-size:11px;line-height:1.6;padding:5px 0 20px}
+@media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}.settings{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:520px){.grid{grid-template-columns:1fr 1fr}.settings{grid-template-columns:1fr 1fr}main{padding:14px 3%}.metric{font-size:20px}}
+</style></head>
+<body>
+<header><div><h1>◈ Daksh Free Forex Scanner</h1><div class="sub">Public market data · No broker login · No API key · Scanner only</div></div><div class="status" id="status">Connecting…</div></header>
+<main>
+<div class="toolbar"><button id="scanBtn" onclick="scan(true)">↻ Scan now</button><button class="secondary" onclick="notifyPermission()">Enable browser alerts</button><button class="secondary" onclick="toggleSettings()">⚙ Strategy settings</button><span class="muted" id="updated">Waiting for first scan</span></div>
+<div class="grid">
+<div class="card"><div class="muted">Pairs monitored</div><div class="metric" id="pairsCount">10</div></div>
+<div class="card"><div class="muted">BUY signals</div><div class="metric" id="buyCount">—</div></div>
+<div class="card"><div class="muted">SELL signals</div><div class="metric" id="sellCount">—</div></div>
+<div class="card"><div class="muted">WAIT / data status</div><div class="metric" id="waitCount">—</div></div>
+</div>
+<section class="panel" id="settingsPanel" style="display:none"><div class="panel-head"><h2>Strategy settings</h2><span class="muted">Changes apply to the next scan</span></div>
+<div class="settings">
+<div><label>Fast EMA</label><input id="ema_fast" type="number" value="9"></div><div><label>Middle EMA</label><input id="ema_mid" type="number" value="20"></div><div><label>Slow EMA</label><input id="ema_slow" type="number" value="50"></div><div><label>Minimum signal score</label><input id="min_score" type="number" value="60"></div>
+<div><label>RSI period</label><input id="rsi_period" type="number" value="14"></div><div><label>RSI BUY threshold</label><input id="rsi_buy" type="number" value="52"></div><div><label>RSI SELL threshold</label><input id="rsi_sell" type="number" value="48"></div><div><label>S/R lookback candles</label><input id="sr_lookback" type="number" value="80"></div>
+</div><div style="padding:0 16px 16px"><button onclick="saveSettings()">Save settings</button> <span id="saveMsg" class="muted"></span></div></section>
+<section class="panel"><div class="panel-head"><h2>Live market signals</h2><span class="muted">Wave 5m · Tide 15m · Trend 1h</span></div>
+<div class="tablewrap"><table><thead><tr><th>Pair</th><th>Signal</th><th>Price</th><th>Confidence</th><th>Wave 5m</th><th>Tide 15m</th><th>Trend 1h</th><th>RSI 5m</th></tr></thead><tbody id="rows"><tr><td colspan="8">Loading public market data…</td></tr></tbody></table></div></section>
+<section class="panel"><div class="panel-head"><h2>Signal history</h2><span class="muted">Recent BUY / SELL signals</span></div><div class="tablewrap"><table><thead><tr><th>Pair</th><th>Signal</th><th>Price</th><th>Score</th><th>Time (UTC)</th></tr></thead><tbody id="historyRows"><tr><td colspan="5">No signals recorded yet</td></tr></tbody></table></div></section>
+<footer>Data source: Yahoo Finance public chart endpoint (unofficial; no account/API key). Quotes may be delayed, incomplete, unavailable, or rate-limited. Signals are technical calculations, not financial advice. This tool does not place trades. Always verify prices and manage risk independently. Render free services may sleep when inactive.</footer>
+</main>
+<script>
+let previousSignals={};
+function fmt(v){if(v===undefined||v===null||Number.isNaN(Number(v)))return "—";return Number(v).toFixed(5)}
+function trend(v){return v||"—"}
+function render(data){
+ const results=data.results||[];let buys=0,sells=0,wait=0;
+ document.getElementById('rows').innerHTML=results.map(r=>{
+  if(r.signal==='BUY')buys++;else if(r.signal==='SELL')sells++;else wait++;
+  const old=previousSignals[r.pair];if(old && old!==r.signal && ['BUY','SELL'].includes(r.signal)) browserAlert(r);
+  previousSignals[r.pair]=r.signal;
+  let t=r.timeframes||{}, w=t['5m']||{},d=t['15m']||{},h=t['1h']||{};
+  let cls=r.signal==='DATA ERROR'?'DATA':r.signal;
+  return `<tr><td><b>${r.pair}</b></td><td><span class="pill ${cls}">${r.signal}</span></td><td>${fmt(r.price)}</td><td>${r.confidence??'—'}%</td><td>${trend(w.trend)}</td><td>${trend(d.trend)}</td><td>${trend(h.trend)}</td><td>${w.rsi?Number(w.rsi).toFixed(1):'—'}</td></tr>`;
+ }).join('');
+ document.getElementById('pairsCount').textContent=results.length;
+ document.getElementById('buyCount').textContent=buys;document.getElementById('sellCount').textContent=sells;document.getElementById('waitCount').textContent=wait;
+ const hist=data.history||[];document.getElementById('historyRows').innerHTML=hist.slice().reverse().map(h=>`<tr><td>${h.pair}</td><td><span class="pill ${h.signal}">${h.signal}</span></td><td>${fmt(h.price)}</td><td>${h.confidence}%</td><td>${new Date(h.updated).toLocaleString()}</td></tr>`).join('')||'<tr><td colspan="5">No signals recorded yet</td></tr>';
+ document.getElementById('updated').textContent='Last scan: '+new Date(data.scanned_at).toLocaleString();
+}
+async function scan(force=false){
+ const btn=document.getElementById('scanBtn');btn.disabled=true;document.getElementById('status').textContent='Scanning public FX data…';
+ try{let r=await fetch('/api/scan?force='+force);if(!r.ok)throw new Error(await r.text());render(await r.json());document.getElementById('status').textContent='Connected · public data';}
+ catch(e){document.getElementById('status').textContent='Data unavailable: '+e.message.slice(0,100);}
+ finally{btn.disabled=false;}
+}
+function toggleSettings(){let p=document.getElementById('settingsPanel');p.style.display=p.style.display==='none'?'block':'none';loadSettings();}
+async function loadSettings(){try{let s=await (await fetch('/api/settings')).json();Object.keys(s).forEach(k=>{let el=document.getElementById(k);if(el)el.value=s[k]})}catch(e){}}
+async function saveSettings(){let keys=['ema_fast','ema_mid','ema_slow','min_score','rsi_period','rsi_buy','rsi_sell','sr_lookback'];let obj={};keys.forEach(k=>obj[k]=Number(document.getElementById(k).value));let r=await fetch('/api/settings',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(obj)});document.getElementById('saveMsg').textContent=r.ok?'Saved. Run a new scan.':'Invalid settings — check EMA order.';if(r.ok)scan(true);}
+function notifyPermission(){if(!('Notification'in window)){alert('Browser notifications are not supported.');return}Notification.requestPermission().then(p=>alert('Browser notification permission: '+p));}
+function browserAlert(r){if('Notification'in window&&Notification.permission==='granted')new Notification('Forex Scanner: '+r.signal+' '+r.pair,{body:'Price: '+fmt(r.price)+' · Confidence: '+r.confidence+'%'});}
+scan(true);setInterval(()=>scan(false),90000);
+</script></body></html>
