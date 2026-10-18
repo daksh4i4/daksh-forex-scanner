@@ -1,0 +1,214 @@
+ó
+
+    ëžÔj'  ã                   óú  • % S SK r S SKrS SKrS SKrS SKJrJr  S SKJrJr  S SK	J
+r
+Jr  S SKrS SK
+rS SKrS SKJrJr  S SKJr  S SKJr  SrS	S
+SSS
+SSSSSS.
+rSSSS.rSSSSSSSSS S!.	r\R9                  5       r0 r\
+\\4   \ S"'   \RB                  " 5       r"/ q#Sq$\" \S#S$9r%\%RM                  S%\" S&S'9S&S(9  S)\S*\S+\S,\RN                  4S- jr(S.\RN                  S,\RN                  4S/ jr)S.\RN                  S,\
+\\4   4S0 jr*S1\S)\S,\
+\\4   4S2 jr+SJS3 jr,\%R[                  S4\S59S6 5       r.\%R[                  S75      S8 5       r/\%R[                  S95      S: 5       r0\%R[                  S;5      S< 5       r1\%Re                  S;5      S=\
+\\4   4S> j5       r3\%R[                  S?5      SJS@\44SA jj5       r5\%R[                  SB5      SC 5       r6\7SD:X  a.  S SK8r8\8Rr                  " SESF\:" \ Rv                  " SGSH5      5      SI9  gg)Ké    N)ÚThreadPoolExecutorÚas_completed)ÚdatetimeÚtimezone)ÚDictÚAny)ÚFastAPIÚ
+HTTPException)ÚHTMLResponse)ÚStaticFileszDaksh Free Forex ScannerzEURUSD=XzGBPUSD=XzJPY=XzCHF=XzAUDUSD=XzCAD=XzNZDUSD=XzEURJPY=XzGBPJPY=XzEURGBP=X)
+zEUR/USDzGBP/USDzUSD/JPYzUSD/CHFzAUD/USDzUSD/CADzNZD/USDzEUR/JPYzGBP/JPYzEUR/GBP)Ú5mÚ5d)Ú15mÚ60d)Ú1hÚ730d)r
+   r   r   é	   é   é2   é   é4   é0   éP   é<   éZ   )	Úema_fastÚema_midÚema_slowÚ
+rsi_periodÚrsi_buyÚrsi_sellÚsr_lookbackÚ	min_scoreÚrefresh_secondsÚcachez1.0.0)ÚtitleÚversionz/staticÚstatic)Ú	directory)ÚnameÚsymbolÚintervalÚrange_Úreturnc                 óV  • SU  3nXSS.nSS0n[         R                  " X4USS9nUR                  5         UR                  5       nUR                  S0 5      R                  S	5      nU(       d>  UR                  S0 5      R                  S
+5      n	[	        [        U	=(       d    S5      5      eUS   n
+U
+R                  S
+5      =(       d    / nU
+R                  S0 5      R                  S0 /5      S   n[        R                  " [        R                  " USSS9UR                  S/ 5      UR                  S/ 5      UR                  S/ 5      UR                  S/ 5      UR                  S/ 5      S.5      n
+U
+R                  / SQS9R                  SS9n
+[        U
+5      S:  a  [	        S5      eU
+$ )Nz2https://query1.finance.yahoo.com/v8/finance/chart/Úhistory)r,   ÚrangeÚeventsz
+User-AgentzMozilla/5.0é   )ÚparamsÚheadersÚtimeoutÚchartÚresultÚerrorzNo market data returnedr   Ú	timestampÚ
+indicatorsÚquoteÚsT)ÚunitÚutcÚopenÚhighÚlowÚcloseÚvolume)Útimer@   rA   rB   rC   rD   )r@   rA   rB   rC   )Úsubset)Údropé7   zNot enough candles returned)ÚrequestsÚgetÚraise_for_statusÚjsonÚ
+ValueErrorÚstrÚpdÚ	DataFrameÚto_datetimeÚdropnaÚreset_indexÚlen)r+   r,   r-   Úurlr4   r5   ÚrÚpayloadr8   ÚerrÚitemÚ
+timestampsr<   Údfs                 Ú$/mnt/data/free_forex_scanner/main.pyÚfetch_yahoor]   "   s~  € Ø>¸v¸hÐ
+G€CØ"¸yÑ
+I€FØ˜]Ð+€GÜŠS°À"ÑE€AØ×ÑÔØf‰f‹h€GØ
+[‰[˜ "Ó
+%×
+)Ñ
+)¨(Ó
+3€FÞØk‰k˜' 2Ó&×*Ñ*¨7Ó3ˆÜœ˜S×=Ð$=Ó>Ó?Ð?Ø!‰9€DØ—‘˜+Ó&×,¨"€JØH‰H\ 2Ó&×*Ñ*¨7°R°DÓ9¸!Ñ<€EÜ	ŠÜ—’˜z°¸Ñ>Ø—	‘	˜& "Ó%¨u¯y©y¸ÀÓ/DØy‰y˜ Ó#¨e¯i©i¸ÀÓ.DØ—)‘)˜H bÓ)ñ	ó 
+€Bð 
+‰Ò:ˆÐ	;×	GÑ	GÈTÐ	GÐ	R€BÜ
+ˆ2ƒwƒ|ÜÐ6Ó7Ð7Ø
+€Ió    r[   c                 ó  • U R                  5       n[        S   [        S   [        S   pCnUR                  R                  USS9R	                  5       US'   UR                  R                  USS9R	                  5       US'   UR                  R                  USS9R	                  5       US'   UR                  R                  5       nUR
+                  S	S
+9R                  S[        S   -  SS
+9R	                  5       nUR
+                  S	S9* R                  S[        S   -  SS
+9R	                  5       nXgR                  S	[        R                  5      -  nSSSU-   -  -
+  R                  S5      US'   UR                  R                  SSS9R	                  5       n	UR                  R                  SSS9R	                  5       n
+Xš-
+  US'   UR                  R                  SSS9R	                  5       US'   UR                  R                  S5      R                  5       nUR                  R                  S5      R!                  5       nSUR                  U-
+  -  XË-
+  R                  S	[        R                  5      -  R                  S5      US'   UR"                  R                  S5      R	                  5       R                  S5      US'   UR$                  UR                  -   UR                  -   UR                  -   S-  US'   UR$                  R&                  S	   UR                  R&                  S	   -   S-  /n
+[)        S[+        U5      5       H7  nU
+R-                  U
+S   UR.                  R&                  US-
+     -   S-  5        M9     XÑS'   U$ ) Nr   r   r   F)ÚspanÚadjustÚema9Úema20Úema50r   )Úloweré   r   )Úalphara   )Úupperéd   r   Úrsié   é   Úmacdr   Úmacd_signalr   Ústoch_ké   Ústoch_dé   Úha_closeé   éÿÿÿÿÚha_open)ÚcopyÚsettingsrC   ÚewmÚmeanÚdiffÚclipÚreplaceÚnpÚnanÚfillnarm   rB   ÚrollingÚminrA   Úmaxro   r@   Úilocr1   rT   Úappendrs   )r[   ÚdÚfÚmr=   ÚdeltaÚgainÚlossÚrsÚema12Úema26ÚloÚhirv   Úis                  r\   Úenrichr’   ;   sè  € Ø
+‰‹	€AÜzÑ"¤H¨YÑ$7¼À*Ñ9Mˆ!€AØ—‘—‘ ¨5Ð1×6Ñ6Ó8€A€fIØ—‘—‘ !¨EÐ2×7Ñ7Ó9€A€gJØ—‘—‘ !¨EÐ2×7Ñ7Ó9€A€gJØ
+G‰GL‰L‹N€EØ:‰:˜Aˆ:Ð×"Ñ"¨¬8°LÑ+AÑ)AÈ%Ð"ÐP×UÑUÓW€DØ
+Z‰Z˜aˆZÐ
+ Ð ×%Ñ%¨A¬h°|Ñ.DÑ,DÈUÐ%ÐS×XÑXÓZ€DØ	
+—‘˜Q¤§¡Ó'Ñ	'€BØc˜1˜R™4‘jÑ ×(Ñ(¨Ó,€A€eHØ
+G‰GK‰K˜R¨ˆKÐ.×3Ñ3Ó5€EØ
+G‰GK‰K˜R¨ˆKÐ.×3Ñ3Ó5€EØ‘
+€A€fIØ—v‘v—z‘z q°zÐ7×<Ñ<Ó>€A€mÑØ	
+‰‰rÓ	×	Ñ	Ó	 €BØ	
+‰‰˜Ó	×	Ñ	Ó	!€BØ˜Ÿ™ ™Ñ$ b¡e§_¡_°Q¼¿¹Ó%?Ñ?×GÑGÈÓK€A€iLØ—9‘9×$Ñ$ QÓ'×,Ñ,Ó.×5Ñ5°bÓ9€A€iLà—V‘V˜AŸF™F‘] 1§5¡5Ñ(¨¯©Ñ0°!Ñ3€A€jMØ—‘—‘˜A‘˜qŸw™wŸ|™|¨A™Ñ.°Ñ1Ð2€GÜ
+1”c˜!“fÖ
+ˆØ‰˜ ™ A§J¡J§O¡O°A°a±CÑ$8Ñ8¸!Ñ;Ö<ñ à€iLØ€Hr^   c                 ó  • [        U 5      nUR                  S   nUR                  UR                  s=:„  =(       a    UR                  :„  Os  nUR                  UR                  s=:  =(       a    UR                  :  Os  nSnSnXS(       a  SOUR                  UR                  :”  a  SOS-
+  nXd(       a  SOUR                  UR                  :  a  SOS-
+  nXRR
+                  [        S   :¼  a  SOS-
+  nXbR
+                  [        S   ::  a  SOS-
+  nXRR                  UR                  :”  a  SOS-
+  nXbR                  UR                  :  a  SOS-
+  nXRR                  UR                  :”  a  UR                  S	:  a  S
+OS-
+  nXbR                  UR                  :  a  UR                  S:”  a  S
+OS-
+  nXRR                  UR                  :”  a  S
+OS-
+  nXbR                  UR                  :  a  S
+OS-
+  nUR                  [        S   5      n[        UR                  R!                  5       5      n[        UR"                  R%                  5       5      n	[        UR&                  5      n
+0 SU
+_S
+[        UR                  5      _S[        UR                  5      _S[        UR                  5      _S[        UR
+                  5      _S[        UR                  5      _S[        UR                  5      _S[        UR                  5      _S[        UR                  5      _SUR                  UR                  :”  a  SOS_SU(       a  SO
+U(       a  SOS_SU_SU	_S[)        U5      _S[)        U5      _SUR*                  R-                  5       _$ )Nru   r   é   é   r    r   r!   é   éU   é
+   r"   Úpricerb   rc   rd   rj   rm   rn   ro   rq   ÚhaÚBULLISHÚBEARISHÚtrendÚMIXEDÚsupportÚ
+resistanceÚ	buy_scoreÚ
+sell_scoreÚcandle_time)r’   r„   rb   rc   rd   rj   rx   rm   rn   ro   rq   rs   rv   ÚtailÚfloatrB   r‚   rA   rƒ   rC   ÚintrE   Ú	isoformat)r[   r†   ÚxÚbullishÚbearishÚ	score_buyÚ
+score_sellÚrecentrŸ   r    r™   s              r\   Ú
+analyze_tfr®   V   sõ  € Üˆr‹
+€AØ	‰ˆr‰
+€AØf‰fq—w‘w×(Ó( §¡Ô(€GØf‰fq—w‘w×(Ó( §¡Ô(€GØ€IØ€JØ
+•w‘¨!¯&©&°1·7±7Ó*:¡QÀÑB€IØ‘"¨1¯6©6°A·G±GÓ+;¡aÀÑC€JØ
+—u‘u¤¨Ñ 3Ó3‘¸Ñ:€IØŸ™¤¨*Ñ!5Ó5‘"¸1Ñ<€JØ
+—v‘v §
+¡
+Ó-‘°1Ñ4€IØŸ™ §¡Ó.‘"°AÑ5€JØ
+—y‘y 1§9¡9Ó,°·±¸R³‘ÀQÑF€IØŸ	™	 A§I¡IÓ-°!·)±)¸b³.‘"ÀaÑG€JØ
+—z‘z A§I¡IÓ-‘°1Ñ4€IØŸ
+™
+ Q§Y¡YÓ.‘"°AÑ5€JØ
+V‰V”H˜]Ñ+Ó
+,€FÜF—J‘J—N‘NÓ$Ó%€GÜv—{‘{—‘Ó(Ó)€JÜ!—'‘'‹N€Eð
+Øð
+Ø¤ a§f¡f£
+ð
+Ø/6¼¸a¿g¹g»ð
+à”q—w‘w“ð
+à!&¬¨a¯e©e«ð
+ð 	”a—f‘f“
+ð
+ð  -¬e°A·M±MÓ.Bð
+ð 	”5˜Ÿ™Ó#ð	
+ð &/´°a·i±iÓ0@ð	
+ð
+ 	
+˜1Ÿ:™:¨¯	©	Ó1‰i°yð
+ð 	žg‘¾©IÀgð
+ð 	7ð
+ð )¨*ð
+ð 	”S˜“^ð
+ð &2´3°z³?ð
+ð 	q—v‘v×'Ñ'Ó)ð
+ð 
+r^   Úpairc                 óô  • 0 / p2[         R                  5        H"  u  nu  pV [        XU5      n[        U5      X$'   M$     [        U5      S:w  a  XSSR                  U5      US.$ US   US   US	   pºn	U	S
+   S-  U
+S
+   S-  -   US
+   S
+-  -   nU	S   S-  U
+S   S-  -   US   S
+-  -   n
+Sn[        XÍ5      nU[        S   :¼  a  XÍS-   :”  a  U
+S   S:w  a  US   S:w  a  SnO)U
+[        S   :¼  a  XÜS-   :”  a  U
+S   S:w  a  US   S:w  a  SnXU[        U5      [        U5      [        U
+5      U	S   S U[        R                  " [        R                  5      R!                  5       S.
+nUS;   aX  U	S   US'   US:X  a  U	S   OU	S   US'   US:X  a  US   [#        US   US   -
+  5      -   OUS   [#        US   US   -
+  5      -
+  US'   U$ ! [         a.  nUR                  U S[
+        U5      S S  35         S nAGMÚ  S nAff = f)Nz: éx   rp   ú
+DATA ERRORz; ©r¯   r+   Úsignalr9   Ú
+timeframesr
+   r   r   r¡   gš™™™™™Ù?gffffffÖ?g      Ð?r¢   ÚWAITr#   r•   r   rœ   ÚBUYr›   ÚSELLr™   )
+r¯   r+   r´   Ú
+confidencer¡   r¢   r™   Úchangerµ   Úupdated©r·   r¸   ÚentryrŸ   r    Ú	stop_lossÚ	target_1R)Ú	INTERVALSÚitemsr]   r®   Ú	Exceptionr…   rN   rT   Újoinrƒ   rx   Úroundr   Únowr   r?   r§   Úabs)r¯   r+   Útf_dataÚerrorsÚlabelr,   r-   r[   ÚeÚwaveÚtider   ÚbuyÚsellr´   r¹   r8   s                    r\   Ú	scan_pairrÏ   w   s‹  € Ø˜"ˆVÜ%.§_¡_Ö%6Ñ!ˆÑ!ð	6Ü˜V¨vÓ6ˆBÜ'¨›^ˆG‹Nñ &7ô ˆ7ƒ|qÓØ¸,ØŸ™ 6Ó*¸'ñCð 	Cà ™
+ w¨u¡~°w¸t±}€DØÑ˜TÑ! D¨Ñ$5°dÑ$:Ñ:¸UÀ;Ñ=OÐPTÑ=TÑT€CØÑ˜tÑ# d¨<Ñ&8¸Ñ&=Ñ=ÀÀlÑ@SÐTXÑ@XÑX€DØ
+€FÜS“€JØ
+Œh{Ñ#Ó#¨°Q©h«¸4À¹=ÈIÓ;UÐZ_Ð`gÑZhÐluÓZuØ‰Ø	
+”˜+Ñ&Ó	&¨4¸±'«>¸dÀ7¹mÈyÓ>XÐ]bÐcjÑ]kÐoxÓ]xØˆà°&Ü˜JÓ'´e¸C³jÜ˜D“k¨D°©MØ gÜ—<’<¤§¡Ó-×7Ñ7Ó9ñ€Fð Ó Ø˜w™-ˆˆw‰Ø17¸5³˜d 9šoÀdÈ<ÑFXˆˆ{ÑØ^dÐhmÓ^m˜v g™´°V¸G±_ÀVÈKÑEXÑ5XÓ1YÒYÐtzð  |Cñ  uDô  GJð  KQð  RYñ  KZð  [að  bmñ  [nñ  Knó  Goñ  uoˆˆ{ÑØ€Møô3 ó 	6ØM‰M˜U˜G 2¤c¨!£f¨T¨c l ^Ð4×5Ó5ûð	6ús   ¡F?Æ?
+G7Ç	"G2Ç2G7c                 ó²  ^
+• [            U (       dQ  [        (       aF  [        R                  " 5       [        -
+  [        S   :  a  [        R                  S/ 5      sS S S 5        $ S S S 5        / n[
+        SS9 n[        R                  5        VVs0 s H  u  p4UR                  [        X45      U_M     nnn[        U5       H#  n UR                  UR                  5       5        M%     S S S 5        UR!                  S S	9  [            U[        S'   [        R                  " 5       qU H—  nUR                  S
+5      S;   d  M  US   US
+   [#        UR                  S
+S5      S5      4m
+[%        U
+4S j[&        SS   5       5      (       a  Mb  [&        R                  S V	s0 s H  o™UR                  U	5      _M     sn	5        M™     [&        SS  qS S S 5        U$ ! , (       d  f       GNw= fs  snnf ! [         a:  nXV   nUR                  U[        U   S[        U5      S S 0 S.5         S nAGMk  S nAff = f! , (       d  f       GNS= fs  sn	f ! , (       d  f       U$ = f)Nr$   Úresultsrr   )Úmax_workersr²   r±   r³   c                 óD   • [        [        5      R                  U S   5      $ )Nr¯   )ÚlistÚPAIRSÚindex)r¨   s    r\   Ú<lambda>Úrun_scan.<locals>.<lambda>§   s   € œt¤E›{×0Ñ0°°6±Ô;r^   )Úkeyr´   r¼   r¯   r™   r   é   c           	   3   ór   >#   • U  H,  oS    US   [        UR                  SS5      S5      4T:H  v •  M.     g7f)r¯   r´   r™   r   rÚ   N)rÄ   rJ   )Ú.0ÚhrÙ   s     €r\   Ú	<genexpr>Úrun_scan.<locals>.<genexpr>®   s9   øé € ÐmÒ_lÐZ[˜f™I q¨¡{´E¸!¿%¹%ÀÈÓ:JÈ1Ó4MÐNÐRUÖUÒ_lùs   ƒ47éâÿÿÿ)r¯   r´   r™   r¹   r»   éœÿÿÿ)Ú
+cache_lockÚ	last_scanrE   rx   r%   rJ   r   rÕ   rÁ   ÚsubmitrÏ   r   r…   r8   rÂ   rN   ÚsortrÄ   Úanyr0   )ÚforcerÑ   Úpoolr¯   r+   ÚjobsÚjobrÊ   rV   ÚkrÙ   s             @r\   Úrun_scanrì   ˜   së  ø€ æ	ÞŸš¤t§y¢y£{´9Ñ'<¼xÐHYÑ?ZÓ'ZÜ—9‘9˜Y¨Ó+÷ 
+‰ð €Gä	¨Ò	*¨dÜOTÏ{É{Ì}Ô]Ê}¹|¸t—‘œI tÓ4°dÒ:É}ˆÑ]Ü Ö%ˆCð
+GØ—‘˜sŸz™z›|Ö,ñ &÷ 
++ð ‡LLÑ;€LÑ<Þ	Ø"ŒˆiÑÜ—I’I“Kˆ	ÛˆAØu‰uX‹ /Õ1Ø˜‘y ! H¡+¬u°Q·U±U¸7ÀAÓ5FÈÓ/JÐKÜÔmÔ_fÐgjÐgkÑ_lÓm×mÓmÜ—N‘NÑ8hÓ#iÒ8h°1 a§e¡e¨A£h¢JÑ8hÑ#iÖjñ	 ô
+ ˜$˜%.ˆ÷ 
+ð €N÷/ 
+Žüó ^øô ó 
+GØ‘yØ—‘¨¼¸d¹È|ÔfiÐjkÓflÐmqÐnqÐfrð  CEñ   F÷  Gó  Gûð
+Gú÷ 
++Ö	*üò  $j÷ 
+Œð €Nús   ˆAGÁ4H0Â#G#Â/H0ÃG)Ã H0Ä7IÄ=AIÆIÆIÆ3IÇ
+G Ç#H0Ç)
+H-Ç3.H(È!H0È(H-È-H0È0
+H?ÉIÉ
+IÚ/)Úresponse_classc                  ól   • [        SSS9 n U R                  5       sS S S 5        $ ! , (       d  f       g = f)Nzstatic/index.htmlzutf-8)Úencoding)r@   Úread)r‡   s    r\   Úhomerò   ³   s$   € ä	
+Ð!¨GÒ	4¸Øv‰v‹x÷ 
+5×	4×	4ús   ‹%¥
+3z/api/healthc                  ó´   • SSS[        [        5      [        (       a9  [        R                  " [        [
+        R                  5      R                  5       S.$ S S.$ )NÚokz#Yahoo Finance public chart endpointF)ÚstatusÚproviderÚaccount_requiredÚpairsrã   )rT   rÕ   rã   r   Ú
+fromtimestampr   r?   r§   © r^   r\   Úhealthrû   ¸   sO   € àÐ%JÐ^cÜœ“J×irÒir¬8×+AÒ+AÄ)ÌHÏLÉLÓ+Y×+cÑ+cÓ+eñ~ð ~Øx|ñ~ð ~r^   z
+/api/pairsc                  ód   • [         R                  5        V Vs/ s H	  u  pXS.PM     snn $ s  snn f )N)r¯   r+   )rÕ   rÁ   )rë   Úvs     r\   rø   rø   ½   s%   € ä-2¯[©[¬]Ô;ª]¡c aAÔ!©]Ò;Ð;ùÓ;s   ˜,z
+/api/settingsc                  ó   • [         $ )N)rx   rú   r^   r\   Úget_settingsrÿ   Á   s   € ä€Or^   Údatac                 ó”  • [        [        5      nU R                  5        H]  u  p#X!;  a  M  [        U[        [
+        45      (       a  [        U[        5      (       a  [        SU S35      e[	        U5      [        U'   M_     S[        S   s=::  a"  [        S   s=:  a  [        S   s=:  a  S::  d'  O  [        R                  [        5        [        SS5      e[        S	[        S
+[        S   5      5      [        S'   [        S[        S
+[        S   5      5      [        S'   [        S	[        S[        S   5      5      [        S'   [        $ )Ni  z must be numericrt   r   r   r   éÈ   z&EMA periods must be in ascending orderr   é_   r#   r   iX  r$   i,  r"   )ÚsetÚDEFAULTSrÁ   Ú
+isinstancer¦   r¥   Úboolr
+   rx   Úupdaterƒ   r‚   )r   Úallowedrë   rý   s       r\   Úupdate_settingsr
+  Å   s  € ä”(‹m€GØz‰zŽ|‰ˆØÓ™XÜ˜!œc¤%˜[×)Ñ)¬Z¸¼$×-?Ñ-?Ä}ÐUXÐ]^Ð\_Ð_oÐZpÓGqÐAqÜ˜!“fŒ‹ñ ð 
+”˜*Ñ%ÕY¬°Ñ(;ÕY¼hÀzÑ>RÕYÐVYÕYÜ‰œÔ!Ü˜CÐ!IÓJÐJÜ ¤3 r¬(°;Ñ*?Ó#@ÓA„Hˆ[ÑÜ"% b¬¨S´Ð:KÑ1LÓ)MÓ"N„HÐ
+ÑÜ! "¤S¨¬X°mÑ-DÓ%EÓF„Hˆ]ÑÜ€Or^   z	/api/scanrç   c                 óÞ   •  [        U 5      [        SS  [        R                  " [        R
+                  5      R
+                  5       S.$ ! [         a  n[        S[        U5      5      eS nAff = f)Nrà   )rÑ   r0   Ú
+scanned_atiö  )
+rì   r0   r   rÅ   r   r?   r§   rÂ   r
+   rN   )rç   rÊ   s     r\   Úapi_scanr
+  Ô   s\   € ð)Ü" 5›/´W¸S¸T°]Ü%Ÿ\š\¬(¯,©,Ó7×AÑAÓCñEð 	Eøäó )Ü˜C¤ Q£Ó(Ð(ûð)ús   ‚AA Á
+A,ÁA'Á'A,z/api/historyc                  ó   • [         SS  $ )Nrá   )r0   rú   r^   r\   Úapi_historyr  Ü   s   € ä45ˆ>Ðr^   Ú__main__zmain:appz0.0.0.0ÚPORTÚ8000)ÚhostÚport)F)<ÚosrE   Ú	threadingÚmathÚconcurrent.futuresr   r   r   r   Útypingr   r   rI   ÚpandasrO   Únumpyr~   Úfastapir	   r
+   Úfastapi.responsesr   Úfastapi.staticfilesr   ÚAPP_NAMErÕ   rÀ   r  rw   rx   r%   rN   Ú__annotations__ÚLockrâ   r0   rã   ÚappÚmountrP   r]   r’   r®   rÏ   rì   rJ   rò   rû   rø   rÿ   Úpostr
+  r  r
+  r  Ú__name__ÚuvicornÚrunr¦   Úgetenvrú   r^   r\   Ú<module>r)     sp  ðß  ×  Ð  ß ?ß 'ß Û Û Û ß *Ý *Ý +à%€à j¸WØ :¸'Ø j¸ZØñ		€ð  ¨¸nÑM€	à˜b¨bØ °Ø B¸2ñ€ð
+ =‰=‹?€Ø€€tˆCˆH~Ó Ø
+^Š^Ó
+€
+Ø
+€Ø€	á
+H gÑ.€Ø ‡		ˆ)‘[¨8Ñ4¸8€	Ñ Dð˜ð  sð °Cð ¸B¿L¹Lô ð2
+ˆr|‰|ð 
+ §¡ô 
+ð62—<‘<ð  D¨¨c¨¡Nô ðBCð  ð ¨¨c°3¨h©ô ôBð6 ‡ˆ˜\€Ð*ñó +ðð ‡ˆÓñ~ó ð~ð ‡ˆÓñ<ó ð<ð ‡ˆÓñó ðð ‡ˆ/Óð˜$˜s C˜x™.ó ó ðð ‡ˆÓñ)Dô )ó ð)ð ‡ˆÓñó ðð ˆzÓÛØ‡K‚K
+ ±°R·Y²Y¸vÀvÓ5NÓ1OÓPð r^   
